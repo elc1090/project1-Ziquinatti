@@ -1,0 +1,23 @@
+.banner {
+    margin: 0 auto;
+    width: 90%;
+    position: relative;
+}
+
+.banner img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.banner h1 {
+    font-family: var(--fonte-normal);
+    position: absolute;
+    z-index: 1;
+    color: var(--branco);
+    font-size: 2.5rem;
+    max-width: 45%;
+    min-width: 400px;
+    height: 144px;
+    top: 55px;
+    left: 44px;
+}

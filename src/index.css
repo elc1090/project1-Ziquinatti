@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --fonte-normal: "GandhiSansRegular";
+    --fonte-bold: "GandhiSansBold";
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --cinza: #E2E2E2;
+    --robin-egg-blue: rgb(195, 248, 247);
+    --dark-cyan: rgb(2, 206, 199);
+    --cor-fonte: #80CED0ff;
+    --light-sea-green: #1AA7A1ff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    margin: 0;
+    padding: 0px;
+    min-height: 100vh;
+    background: var(--branco);
+    /* background: rgb(210,254,253);
+    background: linear-gradient(0deg, var(--robin-egg-blue) 0%, var(--dark-cyan) 100%); */
+    box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 3px;
+}
+
+body::-webkit-scrollbar-track {
+    background: red;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: blue;
+    border-radius: 20px;
+}
+
+@font-face {
+    font-family: "GandhiSansRegular";
+    src: local("GandhiSansRegular"),
+        url("./assets/fonts/GandhiSans-Regular.otf") format("truetype");
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GandhiSansBold";
+    src: local("GandhiSansBold"),
+        url("./assets/fonts/GandhiSans-Bold.otf") format("truetype");
+    font-weight: 700;
+    font-display: swap;
 }

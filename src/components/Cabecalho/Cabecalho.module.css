@@ -1,7 +1,21 @@
 .cabecalho {
+    box-shadow: 0 0 10px rgba(0 0 0 / 20%);
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    margin: 1.5rem 0 4rem 0;
-    background-color: aquamarine;
+    /* margin: 1.5rem 0 4rem 0; */
+    margin: 0 0 2rem 0;
+    padding: 0 10px;
+    background-color: var(--branco);
+}
+
+.cabecalho a {
+    text-decoration: none;
+}
+
+.cabecalho a h1 {
+    margin: 12px 0;
+    display: flex;
+    align-items: center;
+    font-family: var(--fonte-normal);
+    color: var(--cor-fonte);
 }

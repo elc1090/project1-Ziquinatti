@@ -1,0 +1,16 @@
+.texto {
+    margin-top: 40px;
+}
+
+.texto hr {
+    border: 0;
+	border-top: 2px solid var(--dark-cyan);
+    width: 40%;
+}
+
+.texto h1 {
+    font-size: 32px;
+    font-family: var(--fonte-bold);
+    color: var(--cor-fonte);
+    text-align: center;
+}
