@@ -1,18 +1,19 @@
-import Titulo from "./components/Titulo";
-import Banner from "./components/Banner";
-import Cabecalho from "./components/Cabecalho";
+import Banner from "components/Banner";
+import Titulo from "components/Titulo";
 import { useEffect, useState } from "react";
-import Projeto from "./components/Projeto";
+import styles from './Inicio.module.css';
+import Projeto from "components/Projeto";
 
-function App() {
+export default function Inicio() {
   const [projetos, setProjetos] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const resposta = await fetch('https://api.apispreadsheets.com/data/S8CPSUUWyGAoLUIo/');
+      const resposta = await fetch('https://my-json-server.typicode.com/Ziquinatti/galeria-web-api/data');
+      // const resposta = await fetch('./data.json')
       const dados = await resposta.json();
-      // console.log(dados);
-      return dados.data;
+      // console.log(dados)
+      return dados;
     }
 
     fetchData().then(dados => {
@@ -23,12 +24,11 @@ function App() {
 
   return (
     <>
-      <Cabecalho />
       <Banner />
       <Titulo>
         <h1>Projetos Desenvolvidos</h1>
       </Titulo>
-      <section>
+      <section className={styles.galeria_proj}>
         {
           projetos.map((projeto) => {
             return <Projeto {...projeto} key={projeto.id}/>;
@@ -38,5 +38,3 @@ function App() {
     </>
   );
 }
-
-export default App;

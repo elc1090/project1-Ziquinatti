@@ -1,18 +1,40 @@
 .card_projeto {
-    width: fit-content;
-    padding: 10px;
-    background-color: lightcyan;
+    width: 280px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cabecalho {
+    background-color: var(--azul);
+    border-radius: 10px 10px 0 0;
+    padding: 15px;
+    height: 70px;
+}
+
+.cabecalho h3 {
+    color: var(--branco);
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--fonte-bold);
+    text-align: center;
+}
+
+.rodape {
+    background-color: var(--branco);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+    border-radius: 0 0 10px 10px;
+    padding: 20px 16px;
+    height: 120px;
+}
+
+.rodape h4 {
+    font-size: 14px;
+    line-height: 22px;
+    color: #212121;
+    text-align: center;
 }
 
 .link {
-    color:#069; 
-    cursor:pointer;
-}
-
-.preview {
-    display:none;
-    position:absolute;
-    border:1px solid #000;
-    width:400px;
-    height:400px;
+    text-decoration: none;
 }

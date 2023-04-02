@@ -1,5 +1,5 @@
 .texto {
-    margin-top: 40px;
+    margin: 0;
 }
 
 .texto hr {
@@ -9,6 +9,15 @@
 }
 
 .texto h1 {
+    margin-top: 40px;
+    font-size: 32px;
+    font-family: var(--fonte-bold);
+    color: var(--cor-fonte);
+    text-align: center;
+}
+
+.texto h4 {
+    margin: 0;
     font-size: 32px;
     font-family: var(--fonte-bold);
     color: var(--cor-fonte);
