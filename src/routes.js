@@ -8,7 +8,7 @@ function AppRoutes() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<PaginaBase />}>
+        <Route path="/project1-Ziquinatti/" element={<PaginaBase />}>
           <Route index element={<Inicio />}></Route>
           <Route path=":id" element={<Detalhes />}></Route>
           <Route path="*" element={<NaoEncontrada />}></Route>
