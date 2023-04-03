@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Galeria Web dos Projetos
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="https://github.com/elc1090/project1-Ziquinatti/blob/main/public/assets/imagens/readme/banner.jpg" width="800" alt="Banner do Projeto">
+<img src="https://github.com/elc1090/project1-Ziquinatti/blob/main/public/assets/imagens/readme/galeria_projetos.jpg" width="800" alt="Galeria de Projetos">
 
-## Available Scripts
+## Exemplo de página de um projeto
+<img src="https://github.com/elc1090/project1-Ziquinatti/blob/main/public/assets/imagens/readme/exemplo_pagina_projeto.jpg" width="800" alt="Exemplo de página de um projeto">
 
-In the project directory, you can run:
+Acesso: https://elc1090.github.io/project1-Ziquinatti/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+#### Desenvolvedor(a)
+Lucas Ziquinatti Piccini Nunes
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Cliente
+Profª Andrea Charão
 
-### `npm test`
+#### Tecnologias
+- HTML
+- CSS
+- JavaScript
+- React
+- React Router Dom
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Ambiente de desenvolvimento
+- VS Code
+- GitHub Desktop
+- Opera GX
+- My JSON Server
 
-### `npm run build`
+#### Créditos
+- Banner, Erro_404 e Ícones foram criados com os recursos de [Freepik.com](https://br.freepik.com)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### Bastidores
+O projeto foi desenvolvido em dois dias, utilizando como base a biblioteca React.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Durante os estágios iniciais do projeto, estava sendo utilizada uma ferramenta chamada API Spreadsheets, que permitia a criação de uma API, com base em uma planilha do Google Sheets. Contudo, devido a um erro no desenvolvimento, não foi mais possível utilizar a ferramenta, a qual acabou sendo substituída pelo "My JSON Server", que fornece um servidor online fake para testes, mas que cumpre o proposto.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+No que diz respeito as dificuldades no desenvolvimento do projeto, o único ponto que merece destaque é na preview dos outros projetos desenvolvidos, que deveriam ser expostas na galeria. Entretanto, apesar de diversas pesquisas e ferramentas utilizadas, as previews não ficaram como desejado inicialmente, as quais na versão final, foram implementadas com a tag HTML Iframe.
+```
+<iframe src="url" title="description"></iframe>
+```
+Houve também, um erro de compatibilidade entre o GitHub Pages e o React Router Dom, que não pode ser corrigido, principalmente em decorrência do tempo para o desenvolvimento. O erro consiste em não poder recarregar as páginas específicas de cada projeto, pois o GitHub Pages perde o link e não encontra a página novamente.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+Projeto entregue para a disciplina de [Desenvolvimento de Software para a Web](http://github.com/andreainfufsm/elc1090-2023a) em 2023a
