@@ -54,7 +54,7 @@ export default function Detalhes() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src="/assets/imagens/GitHub-Mark.png" alt="Link para o projeto no GitHub" />
+                        <img src={process.env.PUBLIC_URL+"/assets/imagens/GitHub-Mark.png"} alt="Link para o projeto no GitHub" />
                         GitHub
                     </a>
                     <a
@@ -62,7 +62,7 @@ export default function Detalhes() {
                         target="_blank"
                         rel="noreferrer"
                     >
-                        <img src="/assets/imagens/PC-Mark.png" alt="Link para o projeto no GitHub" />
+                        <img src={process.env.PUBLIC_URL+"/assets/imagens/PC-Mark.png"} alt="Link para o projeto no GitHub" />
                         &nbsp;&nbsp;Site
                     </a>
                 </div>

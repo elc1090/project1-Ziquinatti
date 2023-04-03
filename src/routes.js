@@ -6,9 +6,9 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/project1-Ziquinatti/" element={<PaginaBase />}>
+        <Route path="/" element={<PaginaBase />}>
           <Route index element={<Inicio />}></Route>
           <Route path=":id" element={<Detalhes />}></Route>
           <Route path="*" element={<NaoEncontrada />}></Route>

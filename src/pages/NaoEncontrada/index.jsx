@@ -8,7 +8,7 @@ export default function NaoEncontrada() {
                 <p>O conteúdo que você está procurando não foi encontrado.</p>
             </div>
             <div>
-                <img src='/assets/imagens/erro_404.jpg' alt='Erro 404'/>
+                <img src={process.env.PUBLIC_URL+"/assets/imagens/erro_404.jpg"} alt='Erro 404'/>
             </div>
         </section>
     )
