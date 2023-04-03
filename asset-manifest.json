@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/project1-Ziquinatti/static/css/main.cf1d3466.css",
-    "main.js": "/project1-Ziquinatti/static/js/main.973635ee.js",
+    "main.js": "/project1-Ziquinatti/static/js/main.3079a35f.js",
     "static/media/GandhiSans-Bold.otf": "/project1-Ziquinatti/static/media/GandhiSans-Bold.dec9b9272eebe0777746.otf",
     "static/media/GandhiSans-Regular.otf": "/project1-Ziquinatti/static/media/GandhiSans-Regular.c2149b5286c581348418.otf",
     "index.html": "/project1-Ziquinatti/index.html",
     "main.cf1d3466.css.map": "/project1-Ziquinatti/static/css/main.cf1d3466.css.map",
-    "main.973635ee.js.map": "/project1-Ziquinatti/static/js/main.973635ee.js.map"
+    "main.3079a35f.js.map": "/project1-Ziquinatti/static/js/main.3079a35f.js.map"
   },
   "entrypoints": [
     "static/css/main.cf1d3466.css",
-    "static/js/main.973635ee.js"
+    "static/js/main.3079a35f.js"
   ]
 }
